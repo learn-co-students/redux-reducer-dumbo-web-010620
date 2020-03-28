@@ -4,8 +4,8 @@ export function manageFriends(state={friends:[]}, action){
         return (
             {...state,
                 friends: [
-                ...state.friends,
-                action.friend
+                ...state.friends
+                
                 ]
             }
         )
